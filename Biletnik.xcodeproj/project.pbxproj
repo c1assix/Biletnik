@@ -12,6 +12,14 @@
 		DD278B611FAA436A0032C3B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD278B5F1FAA436A0032C3B1 /* Main.storyboard */; };
 		DD278B631FAA436A0032C3B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD278B621FAA436A0032C3B1 /* Assets.xcassets */; };
 		DD278B661FAA436A0032C3B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD278B641FAA436A0032C3B1 /* LaunchScreen.storyboard */; };
+		DD278B6E1FAA44AC0032C3B1 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD278B6D1FAA44AC0032C3B1 /* TableViewController.swift */; };
+		DD2EE73C1FB0D26500E72B4F /* RateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2EE73B1FB0D26500E72B4F /* RateManager.swift */; };
+		DD6F94671FAE21F4003401DC /* 1_2.rtf in Resources */ = {isa = PBXBuildFile; fileRef = DD6F94661FAE21F4003401DC /* 1_2.rtf */; };
+		DD6F946A1FAE246D003401DC /* 1_1.rtf in Resources */ = {isa = PBXBuildFile; fileRef = DD6F94691FAE246D003401DC /* 1_1.rtf */; };
+		DD6F946C1FAE2474003401DC /* 1_3.rtf in Resources */ = {isa = PBXBuildFile; fileRef = DD6F946B1FAE2474003401DC /* 1_3.rtf */; };
+		DD9CF1A4203AEECC00545D3B /* SettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9CF1A3203AEECC00545D3B /* SettingTableViewController.swift */; };
+		DDDF19FD1FABBC2C0034C62B /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDF19FC1FABBC2C0034C62B /* SettingsViewController.swift */; };
+		DDDF19FF1FABC1890034C62B /* CardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDF19FE1FABC1890034C62B /* CardTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +30,14 @@
 		DD278B621FAA436A0032C3B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD278B651FAA436A0032C3B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD278B671FAA436A0032C3B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD278B6D1FAA44AC0032C3B1 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		DD2EE73B1FB0D26500E72B4F /* RateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateManager.swift; sourceTree = "<group>"; };
+		DD6F94661FAE21F4003401DC /* 1_2.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; name = 1_2.rtf; path = ../../../Biletnik_Texts/Full/1_2.rtf; sourceTree = "<group>"; };
+		DD6F94691FAE246D003401DC /* 1_1.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; name = 1_1.rtf; path = ../../../Biletnik_Texts/Full/1_1.rtf; sourceTree = "<group>"; };
+		DD6F946B1FAE2474003401DC /* 1_3.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = 1_3.rtf; sourceTree = "<group>"; };
+		DD9CF1A3203AEECC00545D3B /* SettingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewController.swift; sourceTree = "<group>"; };
+		DDDF19FC1FABBC2C0034C62B /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		DDDF19FE1FABC1890034C62B /* CardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +71,29 @@
 			isa = PBXGroup;
 			children = (
 				DD278B5B1FAA436A0032C3B1 /* AppDelegate.swift */,
+				DD2EE73B1FB0D26500E72B4F /* RateManager.swift */,
+				DD278B6D1FAA44AC0032C3B1 /* TableViewController.swift */,
+				DDDF19FC1FABBC2C0034C62B /* SettingsViewController.swift */,
 				DD278B5D1FAA436A0032C3B1 /* ViewController.swift */,
+				DD9CF1A3203AEECC00545D3B /* SettingTableViewController.swift */,
+				DDDF19FE1FABC1890034C62B /* CardTableViewCell.swift */,
 				DD278B5F1FAA436A0032C3B1 /* Main.storyboard */,
 				DD278B621FAA436A0032C3B1 /* Assets.xcassets */,
 				DD278B641FAA436A0032C3B1 /* LaunchScreen.storyboard */,
 				DD278B671FAA436A0032C3B1 /* Info.plist */,
+				DDDF19FB1FAB69FF0034C62B /* TextsFull */,
 			);
 			path = Biletnik;
+			sourceTree = "<group>";
+		};
+		DDDF19FB1FAB69FF0034C62B /* TextsFull */ = {
+			isa = PBXGroup;
+			children = (
+				DD6F94691FAE246D003401DC /* 1_1.rtf */,
+				DD6F94661FAE21F4003401DC /* 1_2.rtf */,
+				DD6F946B1FAE2474003401DC /* 1_3.rtf */,
+			);
+			path = TextsFull;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,7 +155,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD6F946C1FAE2474003401DC /* 1_3.rtf in Resources */,
+				DD6F94671FAE21F4003401DC /* 1_2.rtf in Resources */,
 				DD278B661FAA436A0032C3B1 /* LaunchScreen.storyboard in Resources */,
+				DD6F946A1FAE246D003401DC /* 1_1.rtf in Resources */,
 				DD278B631FAA436A0032C3B1 /* Assets.xcassets in Resources */,
 				DD278B611FAA436A0032C3B1 /* Main.storyboard in Resources */,
 			);
@@ -136,8 +171,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD9CF1A4203AEECC00545D3B /* SettingTableViewController.swift in Sources */,
+				DDDF19FF1FABC1890034C62B /* CardTableViewCell.swift in Sources */,
+				DD2EE73C1FB0D26500E72B4F /* RateManager.swift in Sources */,
 				DD278B5E1FAA436A0032C3B1 /* ViewController.swift in Sources */,
+				DD278B6E1FAA44AC0032C3B1 /* TableViewController.swift in Sources */,
 				DD278B5C1FAA436A0032C3B1 /* AppDelegate.swift in Sources */,
+				DDDF19FD1FABBC2C0034C62B /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,7 +321,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = s.Biletnik;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -296,7 +336,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = s.Biletnik;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
